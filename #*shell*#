@@ -1,0 +1,682 @@
+Agent pid 47976
+Identity added: /Users/melify/.ssh/id_rsa (melheravi@gmail.com)
+/Melify> cd /tmp
+cd /tmp
+/tmp> ls
+ls
+course.html	courses.html	powerlog	z.html
+/tmp> rm -rf *
+rm -rf *
+zsh: sure you want to delete all 4 files in /tmp [yn]? y
+y
+rm: powerlog: Permission denied
+/tmp> 
+/tmp> mkdir css
+mkdir css
+/tmp> cd css
+cd css
+/tmp/css> cd /Melify/tools/
+cd /Melify/tools/
+/Melify/tools> mkdir NALA
+mkdir NALA
+/Melify/tools> ga NALA/
+ga NALA/
+/Melify/tools> cd NALA/
+cd NALA/
+/Melify/tools/NALA> ls
+ls
+/Melify/tools/NALA> mv /tmp/* .
+mv /tmp/* .
+mv: rename /tmp/powerlog to ./powerlog: Permission denied
+/Melify/tools/NALA> ga .
+ga .
+/Melify/tools/NALA> gg
+gg
+[master 02172477] committed
+ Committer: Mel H <melify@Mels-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 167 insertions(+)
+ create mode 100644 NALA/certification.html
+ create mode 100644 NALA/course.html
+ create mode 100644 NALA/courses.html
+ create mode 100644 NALA/css/styles.css
+ create mode 100644 NALA/index.html
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 2.62 KiB | 2.62 MiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   4260d5ab..02172477  master -> master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 2.62 KiB | 149.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   4260d5ab..02172477  master -> master
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+/Melify/tools/NALA> gg
+gg
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+Everything up-to-date
+/Melify/tools/NALA> gg
+gg
+[master 170ff4a5] committed
+ Committer: Mel H <melify@Mels-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 578 bytes | 578.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   02172477..170ff4a5  master -> master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 578 bytes | 578.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   02172477..170ff4a5  master -> master
+/Melify/tools/NALA> ls
+ls
+certification.html	course.html		courses.html		css			index.html
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gg
+gg
+[master f183f207] committed
+ Committer: Mel H <melify@Mels-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 49 insertions(+), 24 deletions(-)
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 960 bytes | 960.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   170ff4a5..f183f207  master -> master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 960 bytes | 960.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   170ff4a5..f183f207  master -> master
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gg
+gg
+[master d07868c0] committed
+ Committer: Mel H <melify@Mels-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 385 bytes | 385.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   f183f207..d07868c0  master -> master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 385 bytes | 385.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   f183f207..d07868c0  master -> master
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+/Melify/tools/NALA>     git commit --amend --reset-author
+    git commit --amend --reset-author
+hint: Waiting for your editor to close the file...
+fatal: cannot exec '/opt/local/bin/emacs': No such file or directory
+error: unable to start editor '/opt/local/bin/emacs'
+Please supply the message using either -m or -F option.
+/Melify/tools/NALA> gg
+gg
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+Everything up-to-date
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> pwd
+pwd
+/Melify/tools/NALA
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   certification.html
+	modified:   course.html
+	modified:   courses.html
+	modified:   css/styles.css
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+/Melify/tools/NALA> gg
+gg
+[master 4e8b4ba4] committed
+ Committer: Mel H <melify@Mels-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+
+
+
+After doing this, you may fix the identity used for this commit with:
+
+
+
+ 5 files changed, 80 insertions(+), 66 deletions(-)
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.69 KiB | 1.69 MiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   d07868c0..4e8b4ba4  master -> master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.69 KiB | 59.00 KiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   d07868c0..4e8b4ba4  master -> master
+/Melify/tools/NALA>     git config --global user.name "Mel M. Heravi"
+    git config --global user.name "Mel M. Heravi"
+/Melify/tools/NALA>     git config --global user.email mel.heravi@gmail.com
+    git config --global user.email mel.heravi@gmail.com
+/Melify/tools/NALA>     git commit --amend --reset-author
+    git commit --amend --reset-author
+hint: Waiting for your editor to close the file...
+fatal: cannot exec '/opt/local/bin/emacs': No such file or directory
+error: unable to start editor '/opt/local/bin/emacs'
+Please supply the message using either -m or -F option.
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+/Melify/tools/NALA> gg
+gg
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+Everything up-to-date
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gg
+gg
+[master 7a7a4200] committed
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 389 bytes | 389.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   4e8b4ba4..7a7a4200  master -> master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 389 bytes | 389.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   4e8b4ba4..7a7a4200  master -> master
+/Melify/tools/NALA> mkdir img
+mkdir img
+/Melify/tools/NALA> ga img/
+ga img/
+/Melify/tools/NALA> cd img/
+cd img/
+/Melify/tools/NALA/img> mv ~/Downloads/logo.webp .
+mv ~/Downloads/logo.webp .
+/Melify/tools/NALA/img> ga logo.webp 
+ga logo.webp 
+/Melify/tools/NALA/img> gg
+gg
+[master e66dc134] committed
+ 2 files changed, 2 insertions(+)
+ create mode 100644 NALA/img/logo.webp
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 10.28 KiB | 10.28 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   7a7a4200..e66dc134  master -> master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 10.28 KiB | 10.28 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   7a7a4200..e66dc134  master -> master
+/Melify/tools/NALA/img> cd ..
+cd ..
+/Melify/tools/NALA> gg
+gg
+[master a840ab01] committed
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 387 bytes | 387.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   e66dc134..a840ab01  master -> master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 387 bytes | 387.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   e66dc134..a840ab01  master -> master
+/Melify/tools/NALA> cp img/logo.webp ~/Downloads/
+cp img/logo.webp ~/Downloads/
+/Melify/tools/NALA> gg
+gg
+[master 05c3deae] committed
+ 2 files changed, 53 insertions(+), 1 deletion(-)
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 985 bytes | 985.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   a840ab01..05c3deae  master -> master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 985 bytes | 985.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   a840ab01..05c3deae  master -> master
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gg
+gg
+[master bc0a2e6e] committed
+ 1 file changed, 29 insertions(+), 29 deletions(-)
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 648 bytes | 648.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   05c3deae..bc0a2e6e  master -> master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 648 bytes | 648.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   05c3deae..bc0a2e6e  master -> master
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gg
+gg
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+Everything up-to-date
+/Melify/tools/NALA> gg
+gg
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+Everything up-to-date
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gg
+gg
+[master 96486075] committed
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 517 bytes | 517.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   bc0a2e6e..96486075  master -> master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 517 bytes | 517.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   bc0a2e6e..96486075  master -> master
+/Melify/tools/NALA> gg
+gg
+[master 155846cc] committed
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 400 bytes | 400.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   96486075..155846cc  master -> master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 400 bytes | 400.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   96486075..155846cc  master -> master
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   css/styles.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gg
+gg
+[master 19127750] committed
+ 1 file changed, 4 insertions(+)
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 426 bytes | 426.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   155846cc..19127750  master -> master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 426 bytes | 426.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   155846cc..19127750  master -> master
+/Melify/tools/NALA> cd img/
+
+cd img/
+/Melify/tools/NALA/img> 
+/Melify/tools/NALA/img> mv ~/Downloads/logo\ copy.tiff logo.tiff
+mv ~/Downloads/logo\ copy.tiff logo.tiff
+/Melify/tools/NALA/img> ga logo.tiff 
+ga logo.tiff 
+/Melify/tools/NALA/img> cd ..
+cd ..
+/Melify/tools/NALA> 
+
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   img/logo.tiff
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	*shell*
+	.#*shell*
+
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   img/logo.tiff
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	*shell*
+	.#*shell*
+
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   img/logo.tiff
+
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gs
+gs
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   img/logo.tiff
+
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> pwd
+pwd
+
+/Melify/tools/NALA> cd /Melify/tools/NALA
+cd /Melify/tools/NALA
+/Melify/tools/NALA> gg
+gg
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+Everything up-to-date
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> gg
+gg
+[master 1412fea4] committed
+ 1 file changed, 1 deletion(-)
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 399 bytes | 399.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.        
+remote: 
+remote: GitHub found 10 vulnerabilities on NYCMEL/Melify-tools's default branch (3 high, 5 moderate, 2 low). To find out more, visit:        
+remote:      https://github.com/NYCMEL/Melify-tools/security/dependabot        
+remote: 
+To github.com:NYCMEL/Melify-tools.git
+   19127750..1412fea4  master -> master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 399 bytes | 399.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+To /Repos/Melify-tools.git
+   19127750..1412fea4  master -> master
+/Melify/tools/NALA> clean
+clean
+/Melify/tools/NALA> cd ..
+cd ..
+/Melify/tools> scp -r NALA www.melify.com:/Melify/tools
+scp -r NALA www.melify.com:/Melify/tools
+/Melify/tools> ping www.melify.com
+ping www.melify.com
+PING melify.com (15.197.225.128): 56 data bytes
+64 bytes from 15.197.225.128: icmp_seq=0 ttl=238 time=18.525 ms
+64 bytes from 15.197.225.128: icmp_seq=1 ttl=238 time=14.721 ms
+64 bytes from 15.197.225.128: icmp_seq=2 ttl=238 time=13.215 ms
+  C-c C-c^C
+--- melify.com ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 13.215/15.487/18.525/2.234 ms
+/Melify/tools> 
