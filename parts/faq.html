@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<title>Accordion List</title>
+	<link rel="stylesheet" href="styles.css">
+
+	<style>
+	 body {
+	     font-family: Arial, sans-serif;
+	     background: #f5f5f5;
+	     padding: 40px;
+	 }
+
+	 .container {
+	     max-width: 600px;
+	     margin: auto;
+	     background: #ffffff;
+	     padding: 20px;
+	     border-radius: 6px;
+	 }
+
+	 .accordion {
+	     list-style: none;
+	     padding: 0;
+	     margin: 0;
+	 }
+
+	 .accordion li {
+	     border-bottom: 1px solid #ddd;
+	 }
+
+	 .toggle {
+	     width: 100%;
+	     padding: 15px;
+	     text-align: left;
+	     font-size: 16px;
+	     background: none;
+	     border: none;
+	     cursor: pointer;
+	 }
+
+	 .toggle:hover {
+	     background: #f0f0f0;
+	 }
+
+	 .details {
+	     max-height: 0;
+	     overflow: hidden;
+	     transition: max-height 0.3s ease;
+	     padding: 0 15px;
+	 }
+
+	 .details p {
+	     margin: 15px 0;
+	 }
+	</style>
+    </head>
+
+    <body>
+	<div class="container">
+	    <h2>Accordion List</h2>
+
+	    <ul class="accordion">
+		<li>
+		    <button class="toggle">Item One</button>
+		    <div class="details">
+			<p>This is the detailed content for item one.</p>
+		    </div>
+		</li>
+
+		<li>
+		    <button class="toggle">Item Two</button>
+		    <div class="details">
+			<p>This is the detailed content for item two.</p>
+		    </div>
+		</li>
+
+		<li>
+		    <button class="toggle">Item Three</button>
+		    <div class="details">
+			<p>This is the detailed content for item three.</p>
+		    </div>
+		</li>
+	    </ul>
+	</div>
+
+	<script>
+	 const toggles = document.querySelectorAll(".toggle");
+
+	 toggles.forEach(toggle => {
+	     toggle.addEventListener("click", () => {
+		 const currentDetails = toggle.nextElementSibling;
+
+		 document.querySelectorAll(".details").forEach(details => {
+		     if (details !== currentDetails) {
+			 details.style.maxHeight = null;
+		     }
+		 });
+
+		 if (currentDetails.style.maxHeight) {
+		     currentDetails.style.maxHeight = null;
+		 } else {
+		     currentDetails.style.maxHeight = currentDetails.scrollHeight + "px";
+		 }
+	     });
+	 });
+	</script>
+    </body>
+</html>
