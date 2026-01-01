@@ -23,13 +23,23 @@
 	     box-shadow: none;
 	 }
 
+	 .accordion-body {
+	     font-size: 14px;
+	 }
+
+	 .accordion-item {
+	     border: 1px #ebebeb solid;
+	 }
+
 	 /* Reduce font size on small screens */
 	 @media (max-width: 768px) {
 	     .accordion-button {
 		 font-size: 14px;
 	     }
 	     .accordion-body {
-		 font-size: 13px;
+		 font-size: 12px;
+		 max-height:300px;
+		 overflow: auto;
 	     }
 	 }
 	</style>
@@ -38,7 +48,7 @@
     <body class="bg-light p-4">
 
 	<div class="container">
-	    <h2 class="mb-4">Accordion (Loaded from JSON)</h2>
+	    <h3 class="mb-4">Frequently Asked Questions</h3>
 
 	    <div class="accordion" id="accordionContainer"></div>
 	</div>
