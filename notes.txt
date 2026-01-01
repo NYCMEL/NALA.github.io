@@ -1,9 +1,13 @@
 Agenda for next meeting:
+this should take a good couple of hours
 
 - NALA differentiators
   what makes us standout or are we another site?
 
 - discuss competitors
   - the good, the bad, the ugly
+  - would be nice for Ofir to attend
+  - you can invite others as you see fit
 
-- server settings
+- server access
+- your progress with JSON, DB etc.
