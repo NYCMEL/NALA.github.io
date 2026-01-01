@@ -88,7 +88,25 @@
 		     .catch(() => {
 			 section.innerHTML = "<p>Failed to load content.</p>";
 		     });
+		 
+		 function loadScript() {
+		     const script = document.createElement("script");
+		     script.src = "parts/1.js";
+		     script.defer = true;
 
+		     script.onload = () => {
+			 console.log("Script loaded");
+		     };
+
+		     script.onerror = () => {
+			 console.error("Failed to load script");
+		     };
+
+		     document.head.appendChild(script);
+		 }
+
+		 loadScript()
+		 
 		 console.log("loaded section:" + number);
 	     }
 	 }

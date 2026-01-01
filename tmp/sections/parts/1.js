@@ -1,1 +1,1 @@
-alert("AAAAAAAAA");
+console.log("JAVASCRIPT executed");
