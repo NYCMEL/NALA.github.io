@@ -89,23 +89,29 @@
 			 section.innerHTML = "<p>Failed to load content.</p>";
 		     });
 		 
-		 function loadScript() {
+		 function loadScriptIfExists(src) {
+		     // Prevent duplicate loads
+		     if (document.querySelector(`script[src="${src}"]`)) {
+			 console.log("Script already loaded:", src);
+			 return;
+		     }
+
 		     const script = document.createElement("script");
-		     script.src = "parts/1.js";
-		     script.defer = true;
+		     script.src = src;
+		     script.async = true;
 
 		     script.onload = () => {
-			 console.log("Script loaded");
+			 console.log("Script loaded:", src);
 		     };
 
 		     script.onerror = () => {
-			 console.error("Failed to load script");
+			 console.info("Script does not exist or failed to load:", src);
 		     };
 
 		     document.head.appendChild(script);
 		 }
 
-		 loadScript()
+		 loadScriptIfExists("parts/" + number + ".js")
 		 
 		 console.log("loaded section:" + number);
 	     }
