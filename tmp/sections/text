@@ -1,0 +1,3 @@
+create an html with 10 sections and all hidden except the first one
+with some content to be loaded from a url when it opens.
+also create 10 buttons that when clicked, hide all open sections and open the clicked section in a SINGLE html file
