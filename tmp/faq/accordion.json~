@@ -1,0 +1,20 @@
+{
+  "accordion": [
+    {
+      "id": "itemOne",
+      "title": "Item One",
+      "content": "This is the detailed content for item one.",
+      "open": true
+    },
+    {
+      "id": "itemTwo",
+      "title": "Item Two",
+      "content": "This is the detailed content for item two."
+    },
+    {
+      "id": "itemThree",
+      "title": "Item Three",
+      "content": "This is the detailed content for item three."
+    }
+  ]
+}
