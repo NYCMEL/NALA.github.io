@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
 	<meta charset="UTF-8">
-	<title>Section Loader</title>
+	<title>Page Loader</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<style>
@@ -22,71 +22,71 @@
 	     cursor: pointer;
 	 }
 
-	 .section {
+	 .page {
 	     display: none;
 	     background: #ffffff;
 	     padding: 20px;
 	     border-radius: 6px;
 	 }
 
-	 .section.active {
+	 .page.active {
 	     display: block;
 	 }
 	</style>
     </head>
     <body>
 
-	<h2>Sections</h2>
+	<h2>Pages</h2>
 
 	<div class="buttons">
-	    <button onclick="openSection(1)">Section 1</button>
-	    <button onclick="openSection(2)">Section 2</button>
-	    <button onclick="openSection(3)">Section 3</button>
-	    <button onclick="openSection(4)">Section 4</button>
-	    <button onclick="openSection(5)">Section 5</button>
-	    <button onclick="openSection(6)">Section 6</button>
-	    <button onclick="openSection(7)">Section 7</button>
-	    <button onclick="openSection(8)">Section 8</button>
-	    <button onclick="openSection(9)">Section 9</button>
+	    <button onclick="openPage(1)">Page 1</button>
+	    <button onclick="openPage(2)">Page 2</button>
+	    <button onclick="openPage(3)">Page 3</button>
+	    <button onclick="openPage(4)">Page 4</button>
+	    <button onclick="openPage(5)">Page 5</button>
+	    <button onclick="openPage(6)">Page 6</button>
+	    <button onclick="openPage(7)">Page 7</button>
+	    <button onclick="openPage(8)">Page 8</button>
+	    <button onclick="openPage(9)">Page 9</button>
 	</div>
 
-	<!-- Sections -->
-	<div id="section1" class="section active" data-url="parts/content1.html"></div>
-	<div id="section2" class="section" data-url="parts/content2.html"></div>
-	<div id="section3" class="section" data-url="parts/content3.html"></div>
-	<div id="section4" class="section" data-url="parts/content4.html"></div>
-	<div id="section5" class="section" data-url="parts/content5.html"></div>
-	<div id="section6" class="section" data-url="parts/content6.html"></div>
-	<div id="section7" class="section" data-url="parts/content7.html"></div>
-	<div id="section8" class="section" data-url="parts/content8.html"></div>
-	<div id="section9" class="section" data-url="parts/content9.html"></div>
+	<!-- Pages -->
+	<div id="page1" class="page active" data-url="parts/content1.html"></div>
+	<div id="page2" class="page" data-url="parts/content2.html"></div>
+	<div id="page3" class="page" data-url="parts/content3.html"></div>
+	<div id="page4" class="page" data-url="parts/content4.html"></div>
+	<div id="page5" class="page" data-url="parts/content5.html"></div>
+	<div id="page6" class="page" data-url="parts/content6.html"></div>
+	<div id="page7" class="page" data-url="parts/content7.html"></div>
+	<div id="page8" class="page" data-url="parts/content8.html"></div>
+	<div id="page9" class="page" data-url="parts/content9.html"></div>
 
 	<script>
-	 // Load first section on page load
+	 // Load first page on page load
 	 document.addEventListener("DOMContentLoaded", () => {
-	     openSection(1);
+	     openPage(1);
 	 });
 
-	 function openSection(number) {
-	     // Hide all sections
-	     document.querySelectorAll(".section").forEach(section => {
-		 section.classList.remove("active");
+	 function openPage(number) {
+	     // Hide all pages
+	     document.querySelectorAll(".page").forEach(page => {
+		 page.classList.remove("active");
 	     });
 
-	     const section = document.getElementById("section" + number);
-	     section.classList.add("active");
+	     const page = document.getElementById("page" + number);
+	     page.classList.add("active");
 
 	     // Load content only if empty
-	     if (section.innerHTML.trim() === "") {
-		 const url = section.dataset.url;
+	     if (page.innerHTML.trim() === "") {
+		 const url = page.dataset.url;
 
 		 fetch(url)
 		     .then(response => response.text())
 		     .then(content => {
-			 section.innerHTML = content;
+			 page.innerHTML = content;
 		     })
 		     .catch(() => {
-			 section.innerHTML = "<p>Failed to load content.</p>";
+			 page.innerHTML = "<p>Failed to load content.</p>";
 		     });
 		 
 		 function loadScriptIfExists(src) {
@@ -113,7 +113,7 @@
 
 		 loadScriptIfExists("parts/content" + number + ".js")
 		 
-		 console.log("loaded section:" + number);
+		 console.log("loaded page:" + number);
 	     }
 	 }
 	</script>
